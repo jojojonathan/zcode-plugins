@@ -1,0 +1,23 @@
+{
+  "name": "yuanbao-websearch",
+  "version": "0.1.0",
+  "description": "Web search through Tencent Yuanbao's MCP endpoint (SearchPro): Chinese and mixed-language queries, vertical sources (Mode=1) for realtime data like gold prices and weather, freshness filters. Requires the YUANBAO_API_KEY environment variable.",
+  "description_i18n": {
+    "en": "Web search through Tencent Yuanbao's MCP endpoint (SearchPro): Chinese and mixed-language queries, vertical sources (Mode=1) for realtime data like gold prices and weather, freshness filters. Requires the YUANBAO_API_KEY environment variable.",
+    "zh-CN": "经腾讯元宝 MCP 端点联网搜索（SearchPro）：中文与中英混合查询、垂直权威信源（Mode=1，金价/天气等实时数据）、时效过滤。需要环境变量 YUANBAO_API_KEY。"
+  },
+  "author": {
+    "name": "jojojonathan",
+    "url": "https://github.com/jojojonathan"
+  },
+  "repository": "https://github.com/jojojonathan/zcode-plugins",
+  "keywords": [
+    "web-search",
+    "search",
+    "yuanbao",
+    "tencent",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "category": "productivity"
+}

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "yuanbao-websearch": {
+      "type": "http",
+      "url": "https://api.wsa.cloud.tencent.com/Mcp",
+      "headers": {
+        "Authorization": "Bearer ${YUANBAO_API_KEY}"
+      },
+      "alwaysLoad": true
+    }
+  }
+}

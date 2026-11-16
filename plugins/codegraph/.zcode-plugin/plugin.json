@@ -1,0 +1,23 @@
+{
+  "name": "codegraph",
+  "version": "0.1.0",
+  "description": "Code intelligence and knowledge graph for any codebase: one codegraph_explore call returns the relevant symbols' source and the call paths between them, instead of search/read loops. Wraps the locally installed codegraph CLI (v1.6+) via `codegraph serve --mcp`.",
+  "description_i18n": {
+    "en": "Code intelligence and knowledge graph for any codebase: one codegraph_explore call returns the relevant symbols' source and the call paths between them, instead of search/read loops. Wraps the locally installed codegraph CLI (v1.6+) via `codegraph serve --mcp`.",
+    "zh-CN": "任意代码库的代码智能与知识图谱：一次 codegraph_explore 调用即返回相关符号的源码及它们之间的调用路径，免去反复搜索/读文件。封装本机安装的 codegraph CLI（v1.6+），经 `codegraph serve --mcp` 提供。"
+  },
+  "author": {
+    "name": "jojojonathan",
+    "url": "https://github.com/jojojonathan"
+  },
+  "repository": "https://github.com/jojojonathan/zcode-plugins",
+  "keywords": [
+    "codegraph",
+    "code-intelligence",
+    "code-search",
+    "knowledge-graph",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "category": "developer-tools"
+}

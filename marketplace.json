@@ -1,7 +1,7 @@
 {
   "name": "zcode-plugins",
   "owner": "jojojonathan",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "plugins": [
     {
       "name": "next-ai-drawio",
@@ -25,6 +25,52 @@
         "diagram",
         "mcp",
         "flowchart"
+      ]
+    },
+    {
+      "name": "codegraph",
+      "source": "./plugins/codegraph",
+      "version": "0.1.0",
+      "displayName": "Codegraph",
+      "displayName_i18n": {
+        "zh-CN": "Codegraph"
+      },
+      "description": "Code intelligence and knowledge graph for any codebase: one codegraph_explore call returns the relevant symbols' source and the call paths between them. Wraps the locally installed codegraph CLI (v1.6+) via `codegraph serve --mcp`. Requires codegraph on PATH and a per-project codegraph index.",
+      "description_i18n": {
+        "en": "Code intelligence and knowledge graph for any codebase: one codegraph_explore call returns the relevant symbols' source and the call paths between them. Wraps the locally installed codegraph CLI (v1.6+) via `codegraph serve --mcp`. Requires codegraph on PATH and a per-project codegraph index.",
+        "zh-CN": "任意代码库的代码智能与知识图谱：一次 codegraph_explore 调用返回相关符号的源码及调用路径。封装本机 codegraph CLI（v1.6+），经 `codegraph serve --mcp` 提供。需要 PATH 中有 codegraph 且项目已建索引。"
+      },
+      "author": "jojojonathan",
+      "icon": "https://raw.githubusercontent.com/jojojonathan/zcode-plugins/main/plugins/codegraph/icon.png",
+      "category": "developer-tools",
+      "keywords": [
+        "codegraph",
+        "code-intelligence",
+        "code-search",
+        "knowledge-graph"
+      ]
+    },
+    {
+      "name": "yuanbao-websearch",
+      "source": "./plugins/yuanbao-websearch",
+      "version": "0.1.0",
+      "displayName": "Yuanbao Websearch",
+      "displayName_i18n": {
+        "zh-CN": "元宝联网搜索"
+      },
+      "description": "Web search through Tencent Yuanbao's MCP endpoint (SearchPro): Chinese and mixed-language queries, vertical sources for realtime data, freshness filters. Requires the YUANBAO_API_KEY environment variable.",
+      "description_i18n": {
+        "en": "Web search through Tencent Yuanbao's MCP endpoint (SearchPro): Chinese and mixed-language queries, vertical sources for realtime data, freshness filters. Requires the YUANBAO_API_KEY environment variable.",
+        "zh-CN": "经腾讯元宝 MCP 端点联网搜索（SearchPro）：中文与中英混合查询、垂直权威信源、时效过滤。需要环境变量 YUANBAO_API_KEY。"
+      },
+      "author": "jojojonathan",
+      "icon": "https://raw.githubusercontent.com/jojojonathan/zcode-plugins/main/plugins/yuanbao-websearch/icon.png",
+      "category": "productivity",
+      "keywords": [
+        "web-search",
+        "search",
+        "tencent",
+        "yuanbao"
       ]
     }
   ]
