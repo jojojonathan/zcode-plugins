@@ -1,0 +1,31 @@
+{
+  "name": "zcode-plugins",
+  "owner": "jojojonathan",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "next-ai-drawio",
+      "source": "./plugins/next-ai-drawio",
+      "version": "0.1.0",
+      "displayName": "Next AI Drawio",
+      "displayName_i18n": {
+        "zh-CN": "Next AI Drawio"
+      },
+      "description": "Let the AI draw draw.io diagrams on a live browser canvas you can also edit by hand: create, edit and export .drawio/.png/.svg, with version history, undo and self-check screenshots. Wraps the upstream @next-ai-drawio/mcp-server.",
+      "description_i18n": {
+        "en": "Let the AI draw draw.io diagrams on a live browser canvas you can also edit by hand: create, edit and export .drawio/.png/.svg, with version history, undo and self-check screenshots. Wraps the upstream @next-ai-drawio/mcp-server.",
+        "zh-CN": "让 AI 在浏览器实时画布上绘制 draw.io 图表，你也可以随时手动编辑：创建、编辑、导出 .drawio/.png/.svg，带版本历史、撤销与自查截图。封装上游 @next-ai-drawio/mcp-server。"
+      },
+      "author": "jojojonathan",
+      "license": "Apache-2.0",
+      "icon": "https://raw.githubusercontent.com/jojojonathan/zcode-plugins/main/plugins/next-ai-drawio/icon.png",
+      "category": "productivity",
+      "keywords": [
+        "drawio",
+        "diagram",
+        "mcp",
+        "flowchart"
+      ]
+    }
+  ]
+}

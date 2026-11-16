@@ -1,0 +1,8 @@
+# editor/OS cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Node (npx smoke tests etc.)
+node_modules/
+npm-debug.log*
