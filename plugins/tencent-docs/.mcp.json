@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tencent-docs": {
+      "type": "http",
+      "url": "https://docs.qq.com/openapi/mcp",
+      "headers": {
+        "Authorization": "Bearer ${TENCENT_DOCS_TOKEN}"
+      }
+    }
+  }
+}
