@@ -95,6 +95,34 @@
         "office",
         "document"
       ]
+    },
+    {
+      "name": "zcode-beautify",
+      "source": {
+        "source": "github",
+        "repo": "jojojonathan/zcode-beautify-for-wallpaper-engine"
+      },
+      "version": "6.3.4",
+      "displayName": "ZCode Beautify",
+      "displayName_i18n": {
+        "zh-CN": "桌面美化"
+      },
+      "description": "Beautify the ZCode desktop client: Wallpaper Engine scene/video wallpapers as background, Material Design 3 (Monet) dynamic color, chat enhancements (bubble styles, Bubble Studio, session-list paging) and a live settings panel. Experimental CDP injection is explicit opt-in (disabled by default). Installed from the maintained fork jojojonathan/zcode-beautify-for-wallpaper-engine (upstream: Mc-GrowlR/zcode-beautify-for-wallpaper-engine).",
+      "description_i18n": {
+        "en": "Beautify the ZCode desktop client: Wallpaper Engine scene/video wallpapers as background, Material Design 3 (Monet) dynamic color, chat enhancements (bubble styles, Bubble Studio, session-list paging) and a live settings panel. Experimental CDP injection is explicit opt-in (disabled by default). Installed from the maintained fork jojojonathan/zcode-beautify-for-wallpaper-engine (upstream: Mc-GrowlR/zcode-beautify-for-wallpaper-engine).",
+        "zh-CN": "ZCode 桌面客户端美化：Wallpaper Engine 场景/视频壁纸作背景、Material Design 3（Monet）动态配色、聊天增强（气泡样式、气泡工坊、会话列表分页）与实时设置面板。实验性 CDP 注入需显式 opt-in（默认关闭）。安装自维护 fork jojojonathan/zcode-beautify-for-wallpaper-engine（上游：Mc-GrowlR/zcode-beautify-for-wallpaper-engine）。"
+      },
+      "author": "Mc-GrowlR",
+      "license": "MIT",
+      "icon": "https://raw.githubusercontent.com/jojojonathan/zcode-beautify-for-wallpaper-engine/main/icon.png",
+      "category": "themes",
+      "keywords": [
+        "wallpaper",
+        "beautify",
+        "theme",
+        "monet",
+        "cdp"
+      ]
     }
   ]
 }

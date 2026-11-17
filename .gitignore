@@ -6,7 +6,3 @@ Desktop.ini
 # Node (npx smoke tests etc.)
 node_modules/
 npm-debug.log*
-
-# nested standalone git repos (physically hosted here, NOT part of this repo;
-# kept out to avoid accidental gitlink embedding — not a submodule)
-zcode-beautify-for-wallpaper-engine/
